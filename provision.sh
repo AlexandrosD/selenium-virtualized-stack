@@ -1,4 +1,5 @@
 echo "Provisioning starting..."
+sudo apt-get update
 
 echo "Installing JDK"
 sudo apt-get -y install default-jdk
